@@ -9,7 +9,7 @@
 
 ## version1
 - 검색한 값의 이미지 다운 받기
-~~~
+~~~python
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
@@ -48,7 +48,7 @@ driver.close() # 드라이버 닫기
 
 ## version2
 - url을 정확히 알고 있을 경우 빠르게 이미지 다운 받고 싶을 때
-~~~
+~~~python
 from bs4 import BeautifulSoup
 import time
 from urllib.request import urlopen
