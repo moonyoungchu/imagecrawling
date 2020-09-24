@@ -50,7 +50,6 @@ driver.close() # 드라이버 닫기
 - url을 정확히 알고 있을 경우 빠르게 이미지 다운 받고 싶을 때
 ~~~python
 from bs4 import BeautifulSoup
-import time
 from urllib.request import urlopen
 import urllib.request
 
@@ -73,6 +72,4 @@ for i in img:
 
     # else :
     #     break
-
-driver.close() # 드라이버 닫기
 ~~~
